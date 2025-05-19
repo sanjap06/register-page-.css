@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newuser</title>
+    <link rel="stylesheet" href="newuser.css">
+</head>
+<body>
+    <center>
+        <h1>Sign in</h1>
+    <form>
+        <div class="user">
+        <div class="form">
+            <label for="username">user name</label>
+            <input name="username" id="username" placeholder="Enter name" required>
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input name="password" id="password" placeholder="Enter password" required maxlength="8">
+        </div>
+        <div>
+            <label for="conform password">conform password</label>
+            <input name="conform password" id="conform password" placeholder="Enter password" required maxlength="8">
+        </div>
+        <div>
+            <label for="birthdate">Birth date</label>
+            <input type="date"   name="birthdate" id="birthdate" placeholder="Enter date" >
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email"   name="email" id="email" placeholder="Enter email" >
+        </div>
+
+        <div class="gen">
+            <input type="radio"   name="gender" id="malle"  >
+            <label for="male">Male</label>
+           
+        </div>
+        <div class="gen">
+            <input type="radio"   name="gender" id="famle"  >
+            <label for="famle">famle</label>
+          
+        </div>
+        <div>
+            <label>Education</label>
+            <select>
+                <option>BE</option>
+                <option>BSC</option>
+                <option>DIPLOMA</option>
+           
+        </select>   
+        </div>
+        <div>
+            <button>submit</button> 
+        </div>
+    
+    </div>
+    
+    </form>
+    </center>  
+</body>
+</html>

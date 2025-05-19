@@ -1,0 +1,22 @@
+body{
+  background: url("forget.jpeg");
+}
+
+input{
+  box-sizing:10px;
+  box-sizing:20px;
+  padding:10px;
+
+}
+button{
+    margin-left:10px;
+    margin:20px;
+    
+}
+
+.center{
+    text-align: center;
+    margin-top: 100px;
+    color:white;
+
+}
